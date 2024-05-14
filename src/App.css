@@ -1,0 +1,128 @@
+/* DEFINIÇÕES PADRÃO */
+:root{
+  --white-bg: #f1f1f3;
+  --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+  --height-of-loader: 4px;
+  --loader-color: #0071e2;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+label {
+  font-family: gotham;
+}
+p{
+  text-align: justify;
+}
+
+.bi{
+  color: var(--loader-color);
+}
+
+@font-face {
+  font-family: gotham;
+  src: url(./assets/fonts/Gotham-Book.otf);
+}
+@font-face {
+  font-family: gotham-black;
+  src: url(./assets/fonts/Gotham-Black.otf);
+}
+
+
+.main p {
+  text-justify: distribute;
+}
+
+
+/* NAVBAR */
+
+.react-logo{
+  height: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+  animation: react-logo-spin infinite 20s linear;
+}
+
+
+@keyframes react-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .react-logo {
+    animation: react-logo-spin infinite 20s linear;
+  }
+}
+
+/* HOME SECTION */
+
+.logo {
+  height: 17em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.App-header .App-link{
+  color: #61dafb;
+}
+
+.Home-title{
+  font-family: gotham-black;
+}
+
+
+/* MAIN SECTION */
+.line {
+  width: 60px;
+  height: 4px;
+  background-color: var(--loader-color);
+  margin: -0 auto 0 auto;
+}
+
+.modal .name{
+  font-weight: bolder;
+  font-family: gotham-black;
+}
+.modal .text-warning-subtle{
+  color: orangered;
+}
+
+.exercicio-txt{
+  text-align: justify;
+
+}
+
+.card .bi{
+  font-size: 7rem;
+}

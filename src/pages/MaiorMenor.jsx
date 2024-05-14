@@ -25,7 +25,8 @@ const MaiorMenor = () => {
             maiorValor = valor2;
             State1 = '';
             State2 = 'Maior Valor';
-        }if (valor2 < menorValor) {
+        }
+        if (valor2 < menorValor) {
             menorValor = valor2;
             State3 = '';
             State2 = 'Menor Valor';
@@ -36,7 +37,8 @@ const MaiorMenor = () => {
             State1 = '';
             State2 = '';
             State3 = 'Maior Valor';
-        } if (valor3 < menorValor) {
+        }
+        if (valor3 < menorValor) {
             menorValor = valor3;
             State3 = 'Menor Valor';
         }

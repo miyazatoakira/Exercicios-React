@@ -34,7 +34,6 @@ const MaiorMenor = () => {
             menorValor = valor3;
         }
 
-        // Verifica o valor médio entre o maior e o menor
         if ((valor1 < maiorValor && valor1 > menorValor) || (valor1 > maiorValor && valor1 < menorValor)) {
             valorMedio = valor1;
         } else if ((valor2 < maiorValor && valor2 > menorValor) || (valor2 > maiorValor && valor2 < menorValor)) {
